@@ -28,7 +28,7 @@ formEl.addEventListener("submit", ()=>{
         updateLocalStorage()
     }else {
         score--
-        updateLocalStorage
+        updateLocalStorage()
     }
 });
 
